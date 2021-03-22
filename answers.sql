@@ -23,3 +23,17 @@ the 'Northwest' region.
 
 
 SELECT * FROM salespeople WHERE region = 'Northwest';
+
+
+==========
+3
+
+-----
+
+Write a query that shows just the emails of the salespeople from the
+'Southwest' region.
+
+-----
+
+
+SELECT email FROM salespeople WHERE region = 'Southwest';
